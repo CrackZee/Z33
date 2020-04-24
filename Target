@@ -84,7 +84,7 @@ def start():
                         print '\n\n\033[32;1m[+] \033[37;1mPASSWORD FOUND'
                         print '\033[32;1m[+] \033[37;1mUsername \033[32;1m: \033[35;1m'+email
                         print '\033[32;1m[+] \033[37;1mPassword \033[32;1m:\033[35;1m '+pw
-                        print '\033[32;1m[+] \033[37;1mStatus   \033[32;1m:\033[32;1m Success[😉]'
+                        print '\033[32;1m[+] \033[37;1mStatus   \033[32;1m:\033[32;1mSuccess[😉]'
                         print '\033[32;1m[=] \033[37;1mProgram Finish[😎]'
                         sys.exit()
                     else:
