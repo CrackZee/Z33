@@ -46,7 +46,7 @@ def banner():
     time.sleep(1.5)
     
     print GG+" √=============================================√"
-    print GL+"  |••••••   NEW TOOLS HACK FACEBOOK BF.   ••••••|")
+    print GL+"  |••••••   NEW TOOLS HACK FACEBOOK BF.   ••••••|"
     print GG+"  √=============================================√"
     print WW+"  |            MOD BY: Z33SH44N                 |"
     print GL+"  |     Em Not Responsible  for  any  Missuse   |"
