@@ -44,11 +44,12 @@ def banner():
     runntxt(Y+"    ............       Don't Copy  Pap's Script")
     runntxt(GG+"           Samjh Laggı ")
     time.sleep(1.5)
-    print GG+"  √=============================================√"
-    print GL+"  |••••••   NEW TOOLS HACK FACEBOOK BF.   ••••••|"
+    
+    print GG+" √=============================================√"
+    print GL+"  |••••••   NEW TOOLS HACK FACEBOOK BF.   ••••••|")
     print GG+"  √=============================================√"
     print WW+"  |            MOD BY: Z33SH44N                 |"
-    print GL+"  |    I'm Not Responsible  for  any  Missuse   |"
+    print GL+"  |     Em Not Responsible  for  any  Missuse   |"
     print WW+"  |        TEAM : PAKISTAN CYBER ErRoR SyStEm   |"          |"
     print Y+"   |             INSTAGRAM: CR4CK3RZE3           |"
     print GL+"  |---------------------------------------------|"
