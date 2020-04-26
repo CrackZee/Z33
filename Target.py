@@ -50,7 +50,7 @@ def banner():
     print WW+"  |            MOD BY: MR_Ze3⍣                  |"
     print GL+"  |       Mundɑ Jɑtt'ɑn Dɑ Khɑrɑb⍣              |"
     print WW+"  |    Team : Pakistaan Cyber Error System⍣     |"
-    print YG+"  |     Im Not Responsible Any MissUse⍣         |"
+    print WW+"  |     Im Not Responsible Any MissUse⍣         |"
     print GL+"  |---------------------------------------------|"
     print GL+"  |        Life Of Programmer [ L.O.P ]         |"
     print GL+"  |---------------------------------------------|"
